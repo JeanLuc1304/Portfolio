@@ -1,0 +1,11 @@
+@mixin respond-to ($breakpoint){
+    @if ($breakpoint == "big-size"){
+        @media  screen and (max-width: $big-size){
+            @content;
+        }
+    }@else if ($breakpoint == "large"){
+        @media screen and (max-width: $large){
+            @content            
+        }
+    }    
+}

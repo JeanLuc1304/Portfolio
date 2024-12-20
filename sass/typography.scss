@@ -1,0 +1,14 @@
+.name{
+    color: $primary-color;
+    font-family: $font-primary;
+    margin: 0px 10px 0px 40px;
+}
+.projets{
+    h2{
+        color: $text-color;
+        font-family: $font-primary;
+        margin-bottom: 50px;
+        text-align: $align;
+        text-decoration: underline;
+    }
+}

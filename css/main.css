@@ -1,0 +1,361 @@
+@charset "UTF-8";
+.name {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 10px 0px 40px;
+}
+
+.projets h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../image/arrière_plan.avif");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+hr {
+  width: 20%;
+}
+
+#main {
+  margin-left: 260px;
+  padding: 0px 10px;
+}
+
+.home .titre {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 50px;
+  box-shadow: 0 0 50px 0 inset rgb(66, 248, 248);
+  margin: 50px 0;
+}
+.home .titre h1 {
+  color: rgb(66, 248, 248);
+  font-size: 60px;
+  text-align: center;
+}
+.home .sous-titre {
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 90px;
+  margin: 100px 100px;
+}
+.home .sous-titre p {
+  color: black;
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+}
+
+.about {
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+}
+.about h2 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.about p {
+  color: grey;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
+  text-indent: 50px;
+}
+
+.rows1 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.rows1 .c-left {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+  padding: 10px;
+  width: 20%;
+}
+.rows1 .c-left h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.rows1 .c-left li {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.rows1 .c-center1 {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+  margin-left: 40px;
+  padding: 10px;
+  width: 20%;
+}
+.rows1 .c-center1 h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.rows1 .c-center1 li {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.rows1 .c-center2 {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+  margin-left: 40px;
+  padding: 10px;
+  width: 20%;
+}
+.rows1 .c-center2 h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.rows1 .c-center2 li {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.rows1 .c-right {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+  padding: 10px;
+  width: 20%;
+}
+.rows1 .c-right h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.rows1 .c-right li {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.logo {
+  border: 1px solid rgb(66, 248, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.logo .img1 {
+  margin: 10px 10px 20px 20px;
+  height: 200%;
+  width: 50%;
+}
+.logo .img2 {
+  margin: 10px 10px 20px 20px;
+  height: 300%;
+  width: 50%;
+}
+.logo .img3 {
+  border-radius: 20px 60px;
+  margin: 10px 10px 20px 20px;
+  height: 200%;
+  width: 50%;
+}
+
+.projets {
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+  margin: 50px 100px;
+  padding: 50px;
+}
+
+.projets-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  perspective: 1000px;
+  gap: 20px;
+  position: relative;
+  bottom: 20px;
+  left: -5px;
+}
+
+.border {
+  background: black;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.border:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+.border img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.border p {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid grey;
+  border-radius: 20px;
+  color: grey;
+  margin-top: 10px;
+  transform: translateY(5px);
+  cursor: pointer;
+}
+
+.contact {
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+  margin: 70px 0;
+  padding: 10px;
+}
+.contact h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-right: 50%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.rows2 {
+  display: flex;
+}
+.rows2 .left {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+}
+.rows2 .left .icones-text {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid grey;
+  margin: 50px 0;
+  border-radius: 20px;
+  text-align: center;
+}
+.rows2 .left .icones-text p {
+  color: grey;
+}
+.rows2 .left .icones-text p i {
+  margin-right: 10px;
+}
+.rows2 .right {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  width: 50%;
+}
+.rows2 .right .formulaire {
+  margin-left: 10px;
+}
+.rows2 .right .formulaire p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+.rows2 .right .formulaire label {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+.rows2 .right .formulaire input, .rows2 .right .formulaire textarea {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 10px;
+  color: white;
+  width: 90%;
+  padding: 5px;
+}
+.rows2 .right .formulaire .btn-raise {
+  background-color: rgba(8, 7, 6, 0.5);
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 10px;
+  color: grey;
+  cursor: pointer;
+  font-size: 15px;
+  width: 30%;
+}
+.rows2 .right .formulaire .btn-raise:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+}
+
+.bloc_navigation .sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.bloc_navigation .sidenav a {
+  font-size: 20px;
+  color: rgb(66, 248, 248);
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  text-decoration: none;
+}
+.bloc_navigation .sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.profil img {
+  border: 1px solid rgb(66, 248, 248);
+  border-radius: 20px 60px;
+  margin: 10px 10px 20px 20px;
+  height: 200px;
+  width: 200px;
+}
+
+.bloc_section1 {
+  margin-left: 500px;
+}
+
+.bloc_section2 {
+  margin-left: 500px;
+}
+
+/*# sourceMappingURL=main.css.map */

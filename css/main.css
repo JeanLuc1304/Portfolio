@@ -21,6 +21,10 @@ body {
   background-attachment: fixed;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 hr {
   width: 20%;
 }

@@ -5,6 +5,9 @@ body{
     background-size: 100%;
     background-attachment: fixed;
 }
+html{
+    scroll-behavior: smooth;
+}
 hr{
     width: 20%;
 }
